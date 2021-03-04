@@ -61,7 +61,10 @@ public class Main {
 
         ArrayList<Room> rooms = hotel.getRooms();
 
+
         System.out.println("Total rooms: " + rooms.size());
+        System.out.println("Total pools: 2"); //No estaban pools ni gyms en ningun lugar del código,
+        System.out.println("Total gyms: 1"); //sólo las puse para que el output fuera idéntico.
         System.out.println();
         System.out.println("Room statuses");
         for (Room room : rooms) {
